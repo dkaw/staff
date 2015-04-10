@@ -46,7 +46,7 @@ class Services
     /**
      * @var string
      *
-     * @ORM\Column(name="Actif", columnDefinition="enum('actif','inactif')", options={"default" ="actif", "comment"="actif"})
+     * @ORM\Column(name="Actif", columnDefinition="ENUM('actif','inactif')", options={"default" ="actif", "comment"="actif"})
      */
     private $actif;
 
@@ -60,9 +60,11 @@ class Services
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Poles", inversedBy="lines", cascade={"persist"})
      * @ORM\JoinColumn(name="IdPole", referencedColumnName="ID")
      */
-
     private $IdPole;
-
+   /**
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Services")
+     */
+    private $personnes;
     /**
      * @var String
      *
@@ -181,6 +183,22 @@ class Services
     public function getPays()
     {
         return $this->pays;
+    }
+
+    /**
+     * @param mixed $personnes
+     */
+    public function setPersonnes($personnes)
+    {
+        $this->personnes = $personnes;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPersonnes()
+    {
+        return $this->personnes;
     }
 
 

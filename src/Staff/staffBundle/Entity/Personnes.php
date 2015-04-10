@@ -63,14 +63,14 @@ class Personnes
 
     /**
      * @ORM\OneToOne(targetEntity="Staff\staffBundle\Entity\Personnes", cascade={"persist"})
+     * @ORM\JoinColumn(name="Hierarchie_id", referencedColumnName="Id")
      */
-    private $IdHierarchie;
+    private $Hierarchie;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Services", inversedBy="lines", cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Services", inversedBy="personnes", cascade={"persist"})
      * @ORM\JoinColumn(name="ServicePrincipal", referencedColumnName="Id")
      */
-
     private $ServicePrincipal;
 
     /**
@@ -81,9 +81,9 @@ class Personnes
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Sites", inversedBy="lines", cascade={"persist"})
-     * @ORM\JoinColumn(name="Idsite", referencedColumnName="Id")
+     * @ORM\JoinColumn(name="site", referencedColumnName="Id")
      */
-    private $Idsite;
+    private $Site;
 
     /**
      * @param \Staff\staffBundle\Entity\date $DateArrivee
@@ -130,7 +130,7 @@ class Personnes
      */
     public function getIdHierarchie()
     {
-        return $this->IdHierarchie;
+        return $this->Hierarchie;
     }
 
     /**
@@ -152,7 +152,7 @@ class Personnes
     /**
      * @param mixed $Idsite
      */
-    public function setIdsite($Idsite)
+    public function setsite($Idsite)
     {
         $this->Idsite = $Idsite;
     }
@@ -162,7 +162,7 @@ class Personnes
      */
     public function getIdsite()
     {
-        return $this->Idsite;
+        return $this->Site;
     }
 
     /**

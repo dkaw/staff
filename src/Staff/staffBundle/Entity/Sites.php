@@ -41,13 +41,14 @@ class Sites
     private $adresse;
 
     /**
-     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="advert")
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Personnes")
      */
     private $IdResponsable;
 
     /**
      * @param mixed $IdResponsable
      */
+
     public function setIdResponsable($IdResponsable)
     {
         $this->IdResponsable = $IdResponsable;

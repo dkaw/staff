@@ -153,8 +153,6 @@
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/DependencyInjection/staffstaffExtension.php" />
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/Entity/ContributionPersonnesServices.php" />
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/Staff/staffBundle/Entity/Sites.php" />
-        <option value="$PROJECT_DIR$/src/Staff/staffBundle/Entity/Services.php" />
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/Resources/views/Personnes/index.twig.html" />
         <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />

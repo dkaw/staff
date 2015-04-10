@@ -11,7 +11,7 @@
         <tbody>
         {% for Personnes in ListePersonnes  %}
             <tr>
-                <td> {{ Personnes.nom }}</td>
+                <td> {{ Personnes.name }}</td>
             </tr>
             <tr>
                 <td> {{ Personnes.prenom }}</td>
@@ -32,7 +32,7 @@
                 <td>{{ Personnes.DateArrivee|date('d/m/Y') }}</td>
             </tr>
             <tr>
-                <td>{{ Personnes.IdHierarchie }}</td>
+                <td>{{ Personnes.IdHierarchie.name }}</td>
             </tr>
             <tr>
                 <td>{{ Personnes.ServicePrincipal.name }}</td>
@@ -41,7 +41,7 @@
                 <td>{{ Personnes.DateFinContrat }}</td>
             </tr>
             <tr>
-                <td>{{ Personnes.Idsite }}</td>
+                <td>{{ Personnes.Idsite.name }}</td>
             </tr>
         {% endfor %}
         </tbody>
