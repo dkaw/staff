@@ -1,0 +1,7 @@
+Staffstaff_homepage:
+    path:     /
+    defaults: { _controller: StaffstaffBundle:Default:index }
+
+Staffstaff_personne:
+    path:    /Personnes/index
+    defaults: {_controller:StaffstaffBundle:Personnes:index}

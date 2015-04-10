@@ -1,0 +1,4 @@
+Staffstaff:
+    resource: "@StaffstaffBundle/Resources/config/routing.yml"
+    prefix:   /
+
