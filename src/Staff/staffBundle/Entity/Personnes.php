@@ -30,7 +30,7 @@ class Personnes
      *
      * @ORM\Column(name="Nom", type="text")
      */
-    private $nom;
+    private $name;
     /**
      * @var text
 
@@ -182,19 +182,19 @@ class Personnes
     }
 
     /**
-     * @param \Staff\staffBundle\Entity\text $nom
+     * @param \Staff\staffBundle\Entity\text $name
      */
-    public function setNom($nom)
+    public function setName($name)
     {
-        $this->nom = $nom;
+        $this->name = $name;
     }
 
     /**
      * @return \Staff\staffBundle\Entity\text
      */
-    public function getNom()
+    public function getName()
     {
-        return $this->nom;
+        return $this->name;
     }
 
     /**
