@@ -46,23 +46,28 @@ class Services
     /**
      * @var string
      *
-     * @ORM\Column(name="Actif", columnDefinition="enum('actif','inactif')", options={"default" ="actif", "comment"="actif"})
+     * @ORM\Column(name="Actif", columnDefinition="ENUM('actif','inactif')", options={"default" ="actif", "comment"="actif"})
      */
     private $actif;
 
     /**
      * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Services")
+     * @ORM\column(name="Responsable", type="integer")
      */
 
-    private $IdResponsable;
+    private $Responsable;
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Poles", inversedBy="lines", cascade={"persist"})
-     * @ORM\JoinColumn(name="IdPole", referencedColumnName="ID")
+     * @ORM\JoinColumn(name="IdPole", referencedColumnName="Id")
+     * @ORM\column(name="Pole", type="integer", length=11)
      */
-
-    private $IdPole;
-
+    private $Pole;
+   /**
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Services")
+     * @ORM\column(name="Personnes", type="integer")
+     */
+    private $personnes;
     /**
      * @var String
      *
@@ -74,33 +79,33 @@ class Services
     /**
      * @param mixed $IdPole
      */
-    public function setIdPole($IdPole)
+    public function setIdPole($Pole)
     {
-        $this->IdPole = $IdPole;
+        $this->Pole = $Pole;
     }
 
     /**
      * @return mixed
      */
-    public function getIdPole()
+    public function getPole()
     {
-        return $this->IdPole;
+        return $this->Pole;
     }
 
     /**
      * @param mixed $IdResponsable
      */
-    public function setIdResponsable($IdResponsable)
+    public function setResponsable($Responsable)
     {
-        $this->IdResponsable = $IdResponsable;
+        $this->Responsable = $Responsable;
     }
 
     /**
      * @return mixed
      */
-    public function getIdResponsable()
+    public function getResponsable()
     {
-        return $this->IdResponsable;
+        return $this->Responsable;
     }
 
     /**
@@ -181,6 +186,22 @@ class Services
     public function getPays()
     {
         return $this->pays;
+    }
+
+    /**
+     * @param mixed $personnes
+     */
+    public function setPersonnes($personnes)
+    {
+        $this->personnes = $personnes;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPersonnes()
+    {
+        return $this->personnes;
     }
 
 

@@ -11,10 +11,7 @@
         <tbody>
         {% for Personnes in ListePersonnes  %}
             <tr>
-                <td> {{ Personnes.nom }}</td>
-            </tr>
-            <tr>
-                <td> {{ Personnes.prenom }}</td>
+                <td><a href="{{ path('Staffstaff_service') }}">{{ Personnes.name }} </a></td>
             </tr>
             <tr>
                 <td> {{ Personnes.prenom }}</td>
@@ -32,7 +29,7 @@
                 <td>{{ Personnes.DateArrivee|date('d/m/Y') }}</td>
             </tr>
             <tr>
-                <td>{{ Personnes.IdHierarchie }}</td>
+                <td>{{ Personnes.Hierarchie.name }}</td>
             </tr>
             <tr>
                 <td>{{ Personnes.ServicePrincipal.name }}</td>
@@ -41,7 +38,7 @@
                 <td>{{ Personnes.DateFinContrat }}</td>
             </tr>
             <tr>
-                <td>{{ Personnes.Idsite }}</td>
+                <td>{{ Personnes.site.name }}</td>
             </tr>
         {% endfor %}
         </tbody>

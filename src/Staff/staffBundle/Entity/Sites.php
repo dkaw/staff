@@ -41,24 +41,33 @@ class Sites
     private $adresse;
 
     /**
-     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="advert")
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Personnes")
+     * @ORM\column(name="Responsable", type="integer")
      */
-    private $IdResponsable;
+    private $Responsable;
+
+    /**
+     * @var String
+     *
+     * @ORM\Column(name="Pays", type="string", length=32)
+     */
+    private $pays;
 
     /**
      * @param mixed $IdResponsable
      */
-    public function setIdResponsable($IdResponsable)
+
+    public function setResponsable($Responsable)
     {
-        $this->IdResponsable = $IdResponsable;
+        $this->Responsable = $Responsable;
     }
 
     /**
      * @return mixed
      */
-    public function getIdResponsable()
+    public function getResponsable()
     {
-        return $this->IdResponsable;
+        return $this->Responsable;
     }
 
     /**
@@ -107,6 +116,22 @@ class Sites
     public function getName()
     {
         return $this->name;
+    }
+
+    /**
+     * @param String $pays
+     */
+    public function setPays($pays)
+    {
+        $this->pays = $pays;
+    }
+
+    /**
+     * @return String
+     */
+    public function getPays()
+    {
+        return $this->pays;
     }
 
 
