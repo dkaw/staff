@@ -17,8 +17,8 @@ class Poles
     /**
      * @var integer
      *
-     * @ORM\Column(name="ID",length=11, type="integer", nullable=false)
-     * @ORM\ID
+     * @ORM\Column(name="Id",length=11, type="integer", nullable=false)
+     * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
@@ -40,18 +40,21 @@ class Poles
 
     /**
       * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Poles")
+      * @ORM\column(name="Responsable", type="integer")
+     *
       */
 
     private $Responsable;
 
     /**
      * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Services", mappedBy="Poles")
+     * @ORM\column(name="Service", type="text")
      */
 
     private $Service;
 
     /**
-     * @param mixed $IdResponsable
+     * @param mixed $Responsable
      */
     public function setResponsable($Responsable)
     {
@@ -115,11 +118,11 @@ class Poles
     }
 
     /**
-     * @param mixed $IdService
+     * @param mixed $Service
      */
-    public function setService($IdService)
+    public function setService($Service)
     {
-        $this->IdService = $Service;
+        $this->Service = $Service;
     }
 
     /**

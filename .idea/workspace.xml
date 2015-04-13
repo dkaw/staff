@@ -507,52 +507,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Resources/views/Personnes/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="51" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
-          <folding>
-            <marker date="1428656689415" expanded="true" signature="91:1344" placeholder="{% block body ...%}" />
-            <marker date="1428656689415" expanded="true" signature="159:1327" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="175:245" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="188:237" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="261:1314" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="271:1298" placeholder="{% for Personnes in ListePersonnes  ...%}" />
-            <marker date="1428656689415" expanded="true" signature="325:389" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="406:473" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="490:557" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="574:643" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="660:725" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="742:813" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="830:915" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="932:1004" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="1021:1102" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="1119:1193" placeholder="..." />
-            <marker date="1428656689415" expanded="true" signature="1210:1276" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,23 +535,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Controller/PersonnesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="510">
-          <folding />
+          <folding>
+            <element signature="e#47#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Resources/config/routing.yml">
@@ -722,16 +683,6 @@
         <state line="14" column="1" selection-start="215" selection-end="215" vertical-scroll-proportion="0.23153253" vertical-offset="0" max-vertical-offset="907" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Entity/ContributionPersonnesServices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="728" selection-end="728" vertical-scroll-proportion="0.47960308" vertical-offset="0" max-vertical-offset="1770" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Staff/staffBundle/Entity/Sites.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="538" selection-end="538" vertical-scroll-proportion="-3.6078432" vertical-offset="236" max-vertical-offset="1770" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.07908612" vertical-offset="0" max-vertical-offset="569" />
@@ -759,9 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="5" column="12" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">

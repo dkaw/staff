@@ -5,3 +5,6 @@ Staffstaff_homepage:
 Staffstaff_personne:
     path:    /Personnes/index
     defaults: {_controller:StaffstaffBundle:Personnes:index}
+Staffstaff_service:
+    path:    /Services/index/
+    defaults: {_controller:StaffstaffBundle:Services:index}

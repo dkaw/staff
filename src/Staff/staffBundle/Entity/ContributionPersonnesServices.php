@@ -27,16 +27,18 @@ class ContributionPersonnesServices
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Personnes")
      * @ORM\JoinColumn(nullable=false)
+     * @ORM\column(name="Personne", type="integer")
      */
 
-    private $IdPersonne;
+    private $Personne;
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Services")
      * @ORM\JoinColumn(nullable=false)
+     * @ORM\column(name="Service", type="integer")
      */
 
-    private $IdService;
+    private $Service;
 
     /**
      * @var integer
@@ -46,35 +48,35 @@ class ContributionPersonnesServices
     private $taux;
 
     /**
-     * @param mixed $IdPersonne
+     * @param mixed $Personne
      */
-    public function setIdPersonne($IdPersonne)
+    public function setPersonne($Personne)
     {
-        $this->IdPersonne = $IdPersonne;
+        $this->Personne = $Personne;
     }
 
     /**
      * @return mixed
      */
-    public function getIdPersonne()
+    public function getPersonne()
     {
-        return $this->IdPersonne;
+        return $this->Personne;
     }
 
     /**
-     * @param mixed $IdService
+     * @param mixed $Service
      */
-    public function setIdService($IdService)
+    public function setService($Service)
     {
-        $this->IdService = $IdService;
+        $this->Service = $Service;
     }
 
     /**
      * @return mixed
      */
-    public function getIdService()
+    public function getService()
     {
-        return $this->IdService;
+        return $this->Service;
     }
 
     /**

@@ -18,8 +18,9 @@ class PersonnesController extends Controller
         ->getManager();
         $ListePersonnes  = $Personnes
             ->getRepository('StaffstaffBundle:Personnes')
-            ->findAll()
-        ;
+            ->findAll();
+
+
 
         return $this->render('StaffstaffBundle:Personnes:index.html.twig', array('ListePersonnes' =>$ListePersonnes));
     }

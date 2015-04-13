@@ -51,37 +51,37 @@ class Personnes
     private $photo;
     /**
      * @var text
-     * @ORM\Column(name="observation", type="text")
+     * @ORM\Column(name="Observation", type="text")
      */
     private $observation;
 
     /**
      * @var date
-     * @ORM\Column(name="date_arrivee", type="date")
+     * @ORM\Column(name="DateArrivee", type="date")
      */
     private $DateArrivee;
 
     /**
      * @ORM\OneToOne(targetEntity="Staff\staffBundle\Entity\Personnes", cascade={"persist"})
-     * @ORM\JoinColumn(name="Hierarchie_id", referencedColumnName="Id")
+     * @ORM\JoinColumn(name="IdHierarchie", referencedColumnName="Id")
      */
     private $Hierarchie;
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Services", inversedBy="personnes", cascade={"persist"})
-     * @ORM\JoinColumn(name="ServicePrincipal", referencedColumnName="Id")
+     * @ORM\JoinColumn(name="IdServicePrincipal", referencedColumnName="Id")
      */
     private $ServicePrincipal;
 
     /**
      * @var integer
-     * @ORM\Column(name="ServicePrincipal", type="integer", length=11)
+     * @ORM\Column(name="DateFinContrat", type="integer", length=11)
      */
     private $DateFinContrat;
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Sites", inversedBy="lines", cascade={"persist"})
-     * @ORM\JoinColumn(name="site", referencedColumnName="Id")
+     * @ORM\JoinColumn(name="IdSite", referencedColumnName="Id")
      */
     private $Site;
 
@@ -120,15 +120,15 @@ class Personnes
     /**
      * @param mixed $IdHierarchie
      */
-    public function setIdHierarchie($IdHierarchie)
+    public function setHierarchie($Hierarchie)
     {
-        $this->IdHierarchie = $IdHierarchie;
+        $this->Hierarchie = $Hierarchie;
     }
 
     /**
      * @return mixed
      */
-    public function getIdHierarchie()
+    public function getHierarchie()
     {
         return $this->Hierarchie;
     }
@@ -152,15 +152,15 @@ class Personnes
     /**
      * @param mixed $Idsite
      */
-    public function setsite($Idsite)
+    public function setSite($Site)
     {
-        $this->Idsite = $Idsite;
+        $this->Site = $Site;
     }
 
     /**
      * @return mixed
      */
-    public function getIdsite()
+    public function getSite()
     {
         return $this->Site;
     }
@@ -260,12 +260,6 @@ class Personnes
     {
         return $this->username;
     }
-
-
-
-
-
-
 
 
 }
