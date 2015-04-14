@@ -46,7 +46,7 @@ class Services
     /**
      * @var string
      *
-     * @ORM\Column(name="Actif", columnDefinition="ENUM('actif','inactif')", options={"default" ="actif", "comment"="actif"})
+     * @ORM\Column(name="Actif", columnDefinition="ENUM('actif','inactif')", options={"default" ="actif", "comment"="actif"}, nullable=true)
      */
     private $actif;
 
@@ -59,13 +59,13 @@ class Services
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Poles", inversedBy="lines", cascade={"persist"})
-     * @ORM\JoinColumn(name="IdPole", referencedColumnName="Id")
-     * @ORM\column(name="Pole", type="integer", length=11)
+     * @ORM\JoinColumn(name="IdPole", referencedColumnName="id")
+     * @ORM\column(name="Pole", type="integer", length=11, nullable=true)
      */
     private $Pole;
    /**
      * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Services")
-     * @ORM\column(name="Personnes", type="integer")
+     * @ORM\column(name="Personnes", type="integer",nullable=true)
      */
     private $personnes;
     /**

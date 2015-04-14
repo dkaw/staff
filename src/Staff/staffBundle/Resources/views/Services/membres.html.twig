@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block title %} Liste des membres du service {{ service.name }}{% endblock %}
+
+{% block body %}
+
+    {% for Personnes in service.personnes %}
+        {{ Personnes.name }}
+        {% endfor %}
+{% endblock %}

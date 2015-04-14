@@ -1,0 +1,31 @@
+Staff\staffBundle\Entity\Personnes:
+    Personne1:
+        name: Charbonnier
+        prenom: Anne-Laure
+        username: alcharbonnier
+        DateArrivee: <getDateTime('2010-01-01')>
+        ServicePrincipal: 2
+    Personne2:
+        name: Hégron
+        prenom: Jean-Yves
+        username: jyhegron
+        DateArrivee: <getDateTime('2007-03-02')>
+        ServicePrincipal: 1
+    Personne3:
+        name: Yacoubi
+        prenom: Oussamah
+        username: oyacoubi
+        DateArrivee: <getDateTime('2009-03-02')>
+        ServicePrincipal: 1
+    Personne4:
+        name: Maignan
+        prenom: Sylvain
+        username: smaignan
+        DateArrivee: <getDateTime('2008-03-02')>
+        ServicePrincipal: 1
+    Personne5:
+        name: Lionel
+        prenom: Le Mignant
+        username: llemignant
+        DateArrivee: <getDateTime('2006-03-02')>
+        ServicePrincipal: 3
