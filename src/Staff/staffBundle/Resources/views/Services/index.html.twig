@@ -11,7 +11,7 @@
     <tbody>
     {% for Services in ListeServices  %}
         <tr>
-            <td> {{ Services.name }}</td>
+            <td> <a href="{{ path('Staffstaff_service_membre', {id: Services.id}) }}">{{ Services.name }}</a></td>
         </tr>
         <tr>
             <td> {{ Services.description }}</td>

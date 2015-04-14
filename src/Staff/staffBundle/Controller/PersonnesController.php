@@ -24,6 +24,10 @@ class PersonnesController extends Controller
 
         return $this->render('StaffstaffBundle:Personnes:index.html.twig', array('ListePersonnes' =>$ListePersonnes));
     }
+    public function updateAction($id)
+    {
+
+    }
 
 
 

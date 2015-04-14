@@ -1,0 +1,6 @@
+Staff\staffBundle\Entity\Personnes:
+    AnneLaure:
+        name: Charbonnier
+        prenom: Anne-Laure
+        username: alcharbonnier
+

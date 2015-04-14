@@ -6,5 +6,11 @@ Staffstaff_personne:
     path:    /Personnes/index
     defaults: {_controller:StaffstaffBundle:Personnes:index}
 Staffstaff_service:
-    path:    /Services/index/
+    path:    /Services/index
     defaults: {_controller:StaffstaffBundle:Services:index}
+Staffstaff_service_membre:
+    path:    /Service/membres/{id}
+    defaults: {_controller:StaffstaffBundle:Services:membres}
+Staffstaff_pole:
+    path:    /Poles/index
+    defaults: {_controller:StaffstaffBundle:Poles:index}

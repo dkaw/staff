@@ -26,7 +26,7 @@
                 <td>{{ Personnes.observation }}</td>
             </tr>
             <tr>
-                <td>{{ Personnes.DateArrivee|date('d/m/Y') }}</td>
+                <td>{{ Personnes.DateArrivee |date('d/m/Y') }}</td>
             </tr>
             <tr>
                 <td>{{ Personnes.Hierarchie.name }}</td>
@@ -35,7 +35,7 @@
                 <td>{{ Personnes.ServicePrincipal.name }}</td>
             </tr>
             <tr>
-                <td>{{ Personnes.DateFinContrat }}</td>
+                <td>{{ Personnes.DateFinContrat |date('d/m/Y') }}</td>
             </tr>
             <tr>
                 <td>{{ Personnes.site.name }}</td>
