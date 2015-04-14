@@ -46,12 +46,12 @@ class Personnes
 
     /**
      * @var text
-     * @ORM\Column(name="Photo", type="text")
+     * @ORM\Column(name="Photo", type="text", nullable=true)
      */
     private $photo;
     /**
      * @var text
-     * @ORM\Column(name="Observation", type="text")
+     * @ORM\Column(name="Observation", type="text", nullable=true)
      */
     private $observation;
 
@@ -63,7 +63,7 @@ class Personnes
 
     /**
      * @ORM\OneToOne(targetEntity="Staff\staffBundle\Entity\Personnes", cascade={"persist"})
-     * @ORM\JoinColumn(name="IdHierarchie", referencedColumnName="Id")
+     * @ORM\JoinColumn(name="IdHierarchie", nullable=true, referencedColumnName="Id", onDelete="SET NULL")
      */
     private $Hierarchie;
 
@@ -75,7 +75,7 @@ class Personnes
 
     /**
      * @var integer
-     * @ORM\Column(name="DateFinContrat", type="integer", length=11)
+     * @ORM\Column(name="DateFinContrat", type="integer", length=11, nullable=true)
      */
     private $DateFinContrat;
 

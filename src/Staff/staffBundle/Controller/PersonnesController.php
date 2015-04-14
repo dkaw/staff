@@ -24,12 +24,12 @@ class PersonnesController extends Controller
 
         return $this->render('StaffstaffBundle:Personnes:index.html.twig', array('ListePersonnes' =>$ListePersonnes));
     }
-    public function updateAction($id)
+    public function serviceAction(Request $request, Personnes $personnes, ServicePrincipal $servicePrincipal=null)
     {
+        if(!$servicePrincipal == null){
 
+        return $this->render('StaffstaffBundle:Personnes:service.html.twig', array('Personnes' =>$personnes));
+        }
     }
-
-
-
 
 }

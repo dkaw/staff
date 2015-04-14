@@ -40,10 +40,9 @@ class Poles
 
     /**
       * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Poles")
-      * @ORM\column(name="Responsable", type="integer")
+      * @ORM\column(name="Responsable", type="integer", nullable=true)
      *
       */
-
     private $Responsable;
 
     /**
@@ -58,7 +57,9 @@ class Poles
      */
     public function setResponsable($Responsable)
     {
-        $this->IdResponsable = $Responsable;
+        $this->Responsable = $Responsable;
+
+        return $this;
     }
 
     /**
