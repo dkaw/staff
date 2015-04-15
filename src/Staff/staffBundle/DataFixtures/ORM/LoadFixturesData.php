@@ -72,7 +72,8 @@ class LoadAttributsData extends AbstractFixture implements FixtureInterface, Ord
             $bundles['StaffstaffBundle']->getPath() . '/Resources/fixtures/Personnes.yml',
             $bundles['StaffstaffBundle']->getPath() . '/Resources/fixtures/Pole.yml',
             $bundles['StaffstaffBundle']->getPath() . '/Resources/fixtures/Services.yml',
-            $bundles['StaffstaffBundle']->getPath() . '/Resources/fixtures/Sites.yml'
+            $bundles['StaffstaffBundle']->getPath() . '/Resources/fixtures/Sites.yml',
+            $bundles['StaffstaffBundle']->getPath() . '/Resources/fixtures/ContributionauService.yml'
 
         );
     }

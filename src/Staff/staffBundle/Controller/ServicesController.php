@@ -1,6 +1,7 @@
 <?php
 namespace Staff\staffBundle\Controller;
 
+use Staff\staffBundle\Entity\Poles;
 use Staff\staffBundle\Entity\Services;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -13,18 +14,32 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class ServicesController extends Controller
 {
-    public function indexAction()
+    public function indexAction(Request $request, Poles $pole)
     {
         $Services=$this->getDoctrine()->getManager();
-        $ListeServices =$Services->getRepository('StaffstaffBundle:Services')->findAll();
 
-        return $this->render('StaffstaffBundle:Services:index.html.twig', array('ListeServices'=>$ListeServices));
+        $qb = $Services->getRepository('StaffstaffBundle:Services')->createQueryBuilder('s');
+        if ($pole != null) {
+            $qb->where('s.Pole = :pole')
+                ->setParameter('pole', $pole);
+        }
+
+        $ListeServices = $qb->getQuery()->getResult();
+
+        return $this->render('StaffstaffBundle:Services:index.html.twig', array(
+            'pole' => $pole,
+            'ListeServices' => $ListeServices
+        ));
     }
 
     public function membresAction(Request $request, Services $service)
     {
         return $this->render('StaffstaffBundle:Services:membres.html.twig', array(
             'service' => $service
+
         ));
     }
+
+
+
 }

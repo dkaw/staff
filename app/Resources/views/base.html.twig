@@ -3,10 +3,16 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% stylesheets filter='cssrewrite'
+            '../app/Resources/public/bootstrap/dist/css/bootstrap.min.css'
+        %}
+        <link href="{{ asset_url }}" rel="stylesheet" type="text/css" />
+        {% endstylesheets %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+
+
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>

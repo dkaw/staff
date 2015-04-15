@@ -54,20 +54,20 @@ class Services
      * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Services")
      * @ORM\column(name="Responsable", type="integer")
      */
-
     private $Responsable;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Poles", inversedBy="lines", cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Poles", inversedBy="Service", cascade={"persist"})
      * @ORM\JoinColumn(name="IdPole", referencedColumnName="id")
      * @ORM\column(name="Pole", type="integer", length=11, nullable=true)
      */
     private $Pole;
+
    /**
-     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Services")
-     * @ORM\column(name="Personnes", type="integer",nullable=true)
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="ServicePrincipal")
      */
     private $personnes;
+
     /**
      * @var String
      *

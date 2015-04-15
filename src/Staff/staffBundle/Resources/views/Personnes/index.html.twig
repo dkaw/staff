@@ -11,7 +11,10 @@
         <tbody>
         {% for Personnes in ListePersonnes  %}
             <tr>
-                <td><a href="{{ path('Staffstaff_personne_service', {id:Personnes.ServicePrincipal.id})}}">{{ Personnes.name }} </a></td>
+                <td>
+                    {% if Personnes.ServicePrincipal != null %}
+                    <a href="{{ path('Staffstaff_personne_service', {id:Personnes.ServicePrincipal.id})}}">{{ Personnes.name }} </a></td>
+                    {% endif %}
             </tr>
             <tr>
                 <td> {{ Personnes.prenom }}</td>
@@ -24,6 +27,9 @@
             </tr>
             <tr>
                 <td>{{ Personnes.DateFinContrat |date('d/m/Y') }}</td>
+            </tr>
+            <tr>
+                <td><img src="{{ Personnes.photo }}"></td>
             </tr>
         {% endfor %}
         </tbody>

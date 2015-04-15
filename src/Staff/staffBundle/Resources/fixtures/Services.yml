@@ -1,17 +1,17 @@
 Staff\staffBundle\Entity\Services:
-    1:
+    ServiceInformatique:
         name: Informatique
         description: Ce service s'occupe de gérer l'informatique d'Aqualeha sur tous ces sites
         Responsable: @Personne2->id
         Pole: @PoleQSE->id
         pays: FRANCE
-    2:
+    ServiceAchat:
         name:  Achats
         description:  Ce service réalise les achats pour la France
         Responsable: @Personne1->id
         Pole: @PoleQSE->id
         pays: FRANCE
-    3:
+    ServiceDirection:
         name: Direction
         description: Il s'agit de la direction du LEHA
         Responsable: @Personne5->id

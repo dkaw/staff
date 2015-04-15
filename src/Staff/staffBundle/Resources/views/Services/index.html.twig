@@ -2,6 +2,9 @@
 {% block title %} Liste de services AQUALEHA {% endblock %}
 
 {% block body %}
+{% if pole != null %}
+    <a href="{{ path('Staffstaff_pole') }}">{{ pole.nom }}</a>
+{% endif %}
     <legend> Liste des Services</legend>
     <table>
     <thead>
@@ -24,9 +27,6 @@
         </tr>
         <tr>
             <td> {{ Services.Pole }}</td>
-        </tr>
-        <tr>
-            <td> {{ Services.personnes }}</td>
         </tr>
         <tr>
             <td> {{ Services.pays }}</td>

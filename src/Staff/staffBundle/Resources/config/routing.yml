@@ -8,12 +8,14 @@ Staffstaff_personne:
 Staffstaff_personne_service:
     path:    /Personnes/service/{id}
     defaults: {_controller:StaffstaffBundle:Personnes:service}
-Staffstaff_service:
-    path:    /Services/index
-    defaults: {_controller:StaffstaffBundle:Services:index}
 Staffstaff_service_membre:
     path:    /Service/membres/{id}
-    defaults: {_controller:StaffstaffBundle:Services:membres}
+    defaults: {_controller:StaffstaffBundle:Personnes:index}
+Staffstaff_service:
+    path:    /Services/{id}
+    defaults: {_controller:StaffstaffBundle:Services:index, id: null}
+
+
 Staffstaff_pole:
     path:    /Poles/index
-    defaults: {_controller:StaffstaffBundle:Poles:index}
+    defaults: {_controller:StaffstaffBundle:Pole:index}

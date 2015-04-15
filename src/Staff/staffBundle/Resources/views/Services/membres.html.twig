@@ -4,7 +4,14 @@
 
 {% block body %}
 
+
     {% for Personnes in service.personnes %}
-        {{ Personnes.name }}
+        <table>
+            <tbody>
+            <tr>
+                <td> {{ Personnes.name }} </td>
+            </tr>
         {% endfor %}
+    </tbody>
+    </table>
 {% endblock %}

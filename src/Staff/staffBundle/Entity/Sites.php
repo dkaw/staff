@@ -41,8 +41,8 @@ class Sites
     private $adresse;
 
     /**
-     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Personnes", mappedBy="Personnes")
-     * @ORM\column(name="Responsable", type="integer")
+     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Personnes", inversedBy="Site", cascade={"persist"})
+     * @ORM\JoinColumn(name="IdResponsable", referencedColumnName="Id")
      */
     private $Responsable;
 
