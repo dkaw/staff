@@ -1,4 +1,4 @@
 Staffstaff:
-    resource: "@StaffstaffBundle/Resources/config/routing.yml"
+    resource: "@TrombinoscopeStaffBundle/Resources/config/routing.yml"
     prefix:   /
 

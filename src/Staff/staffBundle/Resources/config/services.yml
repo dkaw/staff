@@ -1,4 +1,0 @@
-services:
-#    Staffstaff.example:
-#        class: Staff\staffBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]

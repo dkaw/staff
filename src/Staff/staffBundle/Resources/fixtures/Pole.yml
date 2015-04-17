@@ -1,6 +1,0 @@
-Staff\staffBundle\Entity\Poles:
-    PoleQSE:
-        nom: QSE
-        description: QSE
-        Responsable: @Personne5->id
-        Service: Info
