@@ -1,5 +1,5 @@
 {
-    "name": "kawtar/staff",
+    "name": "kawtar/Staff",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -10,6 +10,10 @@
     },
   
     "require": {
+        "doctrine/mongodb-odm": "1.0.*@dev",
+        "doctrine/mongodb-odm-bundle": "3.0.*@dev"
+},
+     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.6.*",
         "doctrine/orm": "~2.2,>=2.2.3,<2.5",
@@ -21,8 +25,9 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~3.0,>=3.0.12",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
-        "incenteev/composer-parameter-handler": "~2.0"
-        
+        "incenteev/composer-parameter-handler": "~2.0",
+         "nelmio/alice": "1.4.*@dev",
+         "doctrine/doctrine-fixtures-bundle": "2.1.*@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -62,10 +67,6 @@
         }
     }
 }
-{
-    "require": {
-        "doctrine/mongodb-odm": "1.0.*@dev",
-        "doctrine/mongodb-odm-bundle": "3.0.*@dev"
-    },
-}
+
+
 

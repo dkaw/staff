@@ -25,12 +25,10 @@ class ContributionPersonnesServices
     private $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Personnes")
-     * @ORM\JoinColumn(nullable=false)
-     * @ORM\column(name="Personne", type="integer")
+     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Personnes", inversedBy="contributions")
+     * @ORM\JoinColumn(name="Personne", referencedColumnName="Id", nullable=false)
      */
-
-    private $Personne;
+    private $personne;
 
     /**
      * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Services")
@@ -38,7 +36,7 @@ class ContributionPersonnesServices
      * @ORM\column(name="Service", type="integer")
      */
 
-    private $Service;
+    private $service;
 
     /**
      * @var integer
@@ -50,9 +48,9 @@ class ContributionPersonnesServices
     /**
      * @param mixed $Personne
      */
-    public function setPersonne($Personne)
+    public function setPersonne($personne)
     {
-        $this->Personne = $Personne;
+        $this->personne = $personne;
     }
 
     /**
@@ -60,15 +58,15 @@ class ContributionPersonnesServices
      */
     public function getPersonne()
     {
-        return $this->Personne;
+        return $this->personne;
     }
 
     /**
      * @param mixed $Service
      */
-    public function setService($Service)
+    public function setService($service)
     {
-        $this->Service = $Service;
+        $this->service = $service;
     }
 
     /**
@@ -76,7 +74,7 @@ class ContributionPersonnesServices
      */
     public function getService()
     {
-        return $this->Service;
+        return $this->service;
     }
 
     /**

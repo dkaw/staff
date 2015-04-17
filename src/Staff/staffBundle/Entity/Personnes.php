@@ -80,10 +80,14 @@ class Personnes
     private $DateFinContrat;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Staff\staffBundle\Entity\Sites", inversedBy="lines", cascade={"persist"})
-     * @ORM\JoinColumn(name="IdSite", referencedColumnName="Id")
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\Sites", mappedBy="Responsable")
      */
     private $Site;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Staff\staffBundle\Entity\ContributionPersonnesServices", mappedBy="personne", cascade={"persist", "remove"})
+     */
+    private $contributions;
 
     /**
      * @param \Staff\staffBundle\Entity\date $DateArrivee
@@ -261,5 +265,23 @@ class Personnes
         return $this->username;
     }
 
+    /**
+     * @param array $contributions
+     *
+     * @return $this
+     */
+    public function setContributions($contributions)
+    {
+        $this->contributions = $contributions;
 
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getContributions()
+    {
+        return $this->contributions;
+    }
 }
