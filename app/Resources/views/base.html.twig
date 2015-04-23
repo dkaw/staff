@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -24,50 +24,97 @@
                 </button>
                 <a class="navbar-brand" href="#">Trombinoscope</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ path('Trombinoscopestaff_homepage') }}"> Accueil</a></li>
-                    <button type="button" class="btn btn-default navbar-btn">Connexion</button>
 
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            Menu <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="">Action</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-                        </ul>
 
-                    </div>
-
-                    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-                    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-                    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-                    <link rel="stylesheet" href="/resources/demos/style.css">
-                    <script>
-                        $(function() {
-                            var availableTags = [
-                                "Yacoubi",
-                                "Maignan",
-                                "Le Mignant",
-                                "Hégron",
-                                "Charbonnier"
-
-                            ];
-                            $( "#tags" ).autocomplete({
-                                source: availableTags
-                            });
-                        });
-                        <
-                    </script>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        <button type="submit" class="btn btn-default">Submit</button>
+                            <input type="text" class="form-control" placeholder="Search" id="Search">
+                            <button type="submit" class="btn btn-default">Submit</button>
                         </div>
+
+                        <button type="button" class="btn btn-default navbar-btn">Connexion</button>
+                        <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_personne') }}">Liste des personnes</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_service') }}">Liste des services</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_pole') }}">Liste de Pôles</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A propos</a></li>
+                        </ul>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+            <script src="{{ path('fos_js_routing_js', {'callback': 'fos.Router.setData'}) }}"></script>
                 </form>
+                   <script>
+
+                       $(function() {
+                           function log( message ) {
+                               $( "<div>" ).text( message ).prependTo( "#log" );
+                               $( "#log" ).scrollTop( 0 );
+                           }
+
+                           $.ui.autocomplete.prototype._renderItem = function( ul, item ) {
+                               return $( "<textarea>")
+                                       .attr( "data-value", item.id )
+                                       .append( item.name )
+                                       .appendTo( ul );
+                           };
+
+                            $( "#Search" ).autocomplete({
+                                source: "{{ path('Trombinoscopestaff_personne_search') }}",
+
+                                minLength: 2,
+                                select: function( event, ui ) {
+                                    console.log( ui.item ?
+                                            "Selected: " + ui.item.name + " aka " + ui.item.id :
+                                            "Nothing selected, input was " + this.name );
+                                    window.location = Routing.generate('Trombinoscopestaff_personnes', {'id': ui.item.id});
+
+
+                           }
+                            });
+                        });
+
+                   </script>
+            <style>
+                .ui-autocomplete{
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    z-index: 1000;
+                    float: left;
+                    display: none;
+                    min-width: 160px;
+                    padding: 4px 0;
+                    margin: 0 0 10px 25px;
+                    list-style: none;
+                    background-color: #ffffff;
+                    border-color: #ccc;
+                    border-color: rgba(0, 0, 0, 0.2);
+                    border-style: solid;
+                    border-width: 1px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                    -webkit-background-clip: padding-box;
+                    background-clip: padding-box;
+                    *border-right-width: 2px;
+                    *border-bottom-width: 2px;
+                }
+            </style>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Compte <span class="caret"></span></a>
@@ -80,10 +127,11 @@
                         </ul>
                     </li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
-        {% block body %}{% endblock %}
+        {% block body %}
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>

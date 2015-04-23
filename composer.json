@@ -25,7 +25,8 @@
          "nelmio/alice": "1.4.*@dev",
          "doctrine/doctrine-fixtures-bundle": "2.1.*@dev",
          "knplabs/knp-menu-bundle": "~2",
-         "whiteoctober/breadcrumbs-bundle": "dev-master"
+         "whiteoctober/breadcrumbs-bundle": "dev-master",
+        "friendsofsymfony/jsrouting-bundle": "~1.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

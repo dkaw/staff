@@ -1,33 +1,16 @@
-
-<head>
-    <meta charset="utf-8">
-    {% block title %} jQuery UI Autocomplete - Default functionality {% endblock %}
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script>
-        $(function() {
-            var availableTags = [
-                "Yacoubi",
-                "Maignan",
-                "Le Mignant",
-                "Hégron",
-                "Charbonnier"
-
-            ];
-            $( "#tags" ).autocomplete({
-                source: availableTags
-            });
-        });
-    </script>
-</head>
+{% extends '::base.html.twig' %}
 {% block body %}
-
-<div class="ui-widget">
-    <label for="tags">Tags: </label>
-    <input id="tags">
-</div>
-
-
+    <div class="table-responsive">
+    <table class="table">
+    <thead>
+    <tr>
+        <th>Personnes</th><br>
+    </tr></thead>
+    <tbody>
+    {% for Personnes in ListePersonnes  %}
+        <tr class="active">
+            <td><b> Nom:</b>
+                <a href="{{ path('Trombinoscopestaff_personne_edit', {id: Personnes.id})}}">{{ Personnes.name }} </a></td>
+            {% endif %}
+        </tr></tbody></table></div>
 {% endblock %}
