@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Trombinoscope\StaffBundle\TrombinoscopeStaffBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
