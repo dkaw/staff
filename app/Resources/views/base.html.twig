@@ -45,7 +45,7 @@
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_service') }}">Liste des services</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_pole') }}">Liste de Pôles</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A propos</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_apropos') }}">A propos</a></li>
                         </ul>
             </div>
         </div>
@@ -79,7 +79,7 @@
                                     console.log( ui.item ?
                                             "Selected: " + ui.item.name + " aka " + ui.item.id :
                                             "Nothing selected, input was " + this.name );
-                                    window.location = Routing.generate('Trombinoscopestaff_personnes', {'id': ui.item.id});
+                                    window.location = Routing.generate('Trombinoscopestaff_personnes', {'slug': ui.item.slug});
 
 
                            }
