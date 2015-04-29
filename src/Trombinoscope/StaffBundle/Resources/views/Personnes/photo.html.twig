@@ -1,0 +1,15 @@
+{% extends '::base.html.twig' %}
+
+
+{% block body %}
+<div class="row">
+    <div class="jumbotron col-md-8 col-md-offset-1">
+
+    {% if Personnes.nomPhoto %}
+        <img src="{{ asset(Personnes.photoAction(Personnes)) }}"/>
+        {% else %}
+
+        Pas de Photo
+        {% endif %}
+
+

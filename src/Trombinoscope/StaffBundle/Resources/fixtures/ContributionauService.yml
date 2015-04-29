@@ -1,0 +1,14 @@
+Trombinoscope\StaffBundle\Entity\ContributionPersonnesSErvices:
+    Contrib1:
+        personne: @Personne1
+        service: @ServiceInformatique->id
+        taux: 20
+    Contrib2:
+        personne: @Personne3
+        service: @ServiceAchat->id
+        taux: 40
+    Contrib3:
+        personne: @Personne4
+        service: @ServiceDirection->id
+        taux: 12
+

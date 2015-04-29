@@ -1,0 +1,20 @@
+{% extends '::base.html.twig' %}
+{% block title %} Détails du Service {% endblock %}
+
+{% block body %}
+    <nav>
+        <ul class="pager">
+            <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_homepage') }}"><span aria-hidden="true">&larr;</span> Menu</li></ul></nav></a>
+    <div class="jumbotron col-md-6 col-md-offset-0">
+    <table>
+        <tr>
+            <td> {{ service.name }} </td>
+        </tr>
+        <tr>
+            <td> {{ service.description }}
+            </td>
+        </tr>
+    </table>
+
+</div>
+{% endblock %}

@@ -170,6 +170,12 @@
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/web/config.php" />
+        <option value="$PROJECT_DIR$/web/app.php" />
+        <option value="$PROJECT_DIR$/app/config/preprod.rb" />
+        <option value="$PROJECT_DIR$/app/config/prod.rb" />
+        <option value="$PROJECT_DIR$/app/config/deploy.rb" />
       </list>
     </option>
   </component>

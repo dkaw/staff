@@ -1,0 +1,37 @@
+{% extends '::base.html.twig' %}
+{% block title %} Liste de pôles AQUALEHA {% endblock %}
+
+{% block body %}
+    <nav>
+        <ul class="pager">
+            <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_homepage') }}"><span aria-hidden="true">&larr;</span> Menu</li></ul></nav></a>
+    <div class="jumbotron col-md-8 col-md-offset-0">
+
+<legend> Liste de Pôles</legend>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Pôles</th>
+        </tr></thead>
+        <tbody>
+    {% for Pole in ListePole  %}
+        <tr>
+            <td><a href="{{ path('Trombinoscopestaff_service', {id: Pole.id}) }}">{{ Pole.nom }}</a></td>
+        </tr>
+        <tr>
+        <td> {{ Pole.description }}</td>
+        </tr>
+        <tr>
+        <td> {{ Pole.Responsable }}</td>
+        </tr>
+        <tr>
+        <td> {{ Pole.Service }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+        </table>
+
+</div>
+{% endblock %}
