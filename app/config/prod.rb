@@ -3,14 +3,7 @@ set :application, "trombinoscope"
 set :deploy_to, "/var/www/html/trombinoscope"
 # Le nom d’utilisateur du serveur distant
 
-set :domain, "root@k2"
+set :domain, "adminleha@192.168.2.15"
 
-server 'k2', :app, :web, :primary => true
-
-role :web, domain
-role :app, domain, :primary => true
-
-
-
-
+server '192.168.2.15', :app, :web, :primary => true
 

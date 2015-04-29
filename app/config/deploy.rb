@@ -34,4 +34,4 @@ set :use_composer, true
 set  :keep_releases,  3
 
 # Be more verbose by uncommenting the following line
-# logger.level = Logger::MAX_LEVEL
+logger.level = Logger::MAX_LEVEL

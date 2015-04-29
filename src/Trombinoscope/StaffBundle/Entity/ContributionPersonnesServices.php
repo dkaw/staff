@@ -17,11 +17,10 @@ class ContributionPersonnesServices
     /**
      * @var integer
      *
-     * @ORM\Column(name="ID", type="integer",length=11, options={"comment"="Identifiant"})
-     * @ORM\ID
+     * @ORM\Column(name="Id", type="integer",length=11, options={"comment"="Identifiant"})
+     * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-
     private $id;
 
     /**
