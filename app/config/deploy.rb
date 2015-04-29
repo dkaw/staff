@@ -23,7 +23,7 @@ set :model_manager, "doctrine"
 set :writable_dirs, ["app/cache", "app/logs"]
 set :webserver_user, "apache"
 set :shared_files, ["app/config/parameters.yml"]
-set :permission_method, :acl
+set :permission_method, :chown
 set :use_set_permissions, true
 
 set :use_sudo, false

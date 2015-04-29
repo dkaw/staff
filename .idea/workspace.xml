@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110f33cc-0816-4194-a12d-686e8d33156e" name="Default" comment="" />
+    <list default="true" id="110f33cc-0816-4194-a12d-686e8d33156e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/deploy.rb" afterPath="$PROJECT_DIR$/app/config/deploy.rb" />
+    </list>
     <ignored path="staff.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,13 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/deploy.rb">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="630">
+            <state line="25" column="30" selection-start="626" selection-end="626" vertical-scroll-proportion="0.45126355" vertical-offset="0" max-vertical-offset="831">
               <folding />
             </state>
           </provider>
@@ -53,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContributionPersonnesServices.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ContributionPersonnesServices.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="0.33216783" vertical-offset="0" max-vertical-offset="1755">
+            <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="-5.5882354" vertical-offset="0" max-vertical-offset="1755">
               <folding />
             </state>
           </provider>
@@ -169,8 +171,8 @@
         <option value="$PROJECT_DIR$/web/app.php" />
         <option value="$PROJECT_DIR$/app/config/preprod.rb" />
         <option value="$PROJECT_DIR$/app/config/prod.rb" />
-        <option value="$PROJECT_DIR$/app/config/deploy.rb" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php" />
+        <option value="$PROJECT_DIR$/app/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -723,23 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/prod.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/deploy.rb">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="24" selection-start="469" selection-end="469" vertical-scroll-proportion="0.13559322" vertical-offset="150" max-vertical-offset="1125">
@@ -777,7 +762,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="0.33216783" vertical-offset="0" max-vertical-offset="1755">
+        <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="-5.5882354" vertical-offset="0" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/prod.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/deploy.rb">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="30" selection-start="626" selection-end="626" vertical-scroll-proportion="0.45126355" vertical-offset="0" max-vertical-offset="831">
           <folding />
         </state>
       </provider>
