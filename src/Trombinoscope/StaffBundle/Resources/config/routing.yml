@@ -1,0 +1,48 @@
+Trombinoscopestaff_homepage:
+    path:     /
+    defaults: { _controller: TrombinoscopeStaffBundle:Default:index }
+
+Trombinoscopestaff_personne:
+    path:    /Personnes/index/{idService}
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:index, idService: null}
+
+Trombinoscopestaff_personne_service:
+    path:    /Personnes/service/{id}
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:service}
+
+Trombinoscopestaff_service_membre:
+    path:    /Service/membres/{id}
+    defaults: {_controller:TrombinoscopeStaffBundle:Services:membres}
+
+Trombinoscopestaff_service:
+        path:    /Services/{id}
+        defaults: {_controller:TrombinoscopeStaffBundle:Services:index, id: null}
+
+Trombinoscopestaff_pole:
+    path:    /Poles/index
+    defaults: {_controller:TrombinoscopeStaffBundle:Pole:index}
+
+Trombinoscopestaff_personne_edit:
+    path:   /Personnes/edit/{id}
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:edit, id: null}
+
+Trombinoscopestaff_personne_delete:
+    path:   /Personnes/delete/{id}
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:delete}
+
+Trombinoscopestaff_personne_search:
+    path:   /Personnes/search
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:search}
+
+Trombinoscopestaff_personnes:
+    path:   /Personnes/{slug}
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:indexpersonnes}
+    options:
+        expose: true
+Trombinoscopestaff_apropos:
+    path:   /Apropos
+    defaults: {_controller:TrombinoscopeStaffBundle:Default:apropos}
+
+Trombinoscopestaff_picture:
+    path:   /Personnes/{slug}/photo
+    defaults: {_controller:TrombinoscopeStaffBundle:Personnes:photo}

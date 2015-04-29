@@ -1,0 +1,35 @@
+{% extends '::base.html.twig' %}
+
+{% block title %} Liste des membres du service {{ service.name }}{% endblock %}
+
+{% block body %}
+  {% if service!=null %}
+      <nav>
+      <ul class="pager">
+      <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_service') }}">{{ service.name }} <span aria-hidden="true">&larr;</span></li></ul></nav></a>
+      {% endif %}
+    {% for Personnes in service.personnes %}
+        <table>
+            <tbody>
+            <tr>
+                <td> {{ Personnes.name }} </td>
+                </tr>
+        <tr>
+            <td> {{ Personnes.prenom }}</td>
+            </tr>
+        <tr>
+            <td> {{ Personnes.username }}</td>
+        </tr>
+        <tr>
+            <td>{{ Personnes.DateArrivee |date('d/m/Y') }}</td>
+        </tr>
+        <tr>
+            <td>{{ Personnes.DateFinContrat |date('d/m/Y') }}</td>
+        </tr>
+        <tr>
+            <td><img src=" {{ path ('Trombinoscopestaff_picture',{'slug':Personnes.slug}) }}" style="max-height: 150px; max-width: 200px" ></td><br><br>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+{% endblock %}

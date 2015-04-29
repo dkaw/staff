@@ -1,0 +1,52 @@
+{% extends '::base.html.twig' %}
+{% block title %} Liste de staff AQUALEHA {% endblock %}
+{% block body %}
+    <nav>
+        <ul class="pager">
+            <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_homepage') }}"><span aria-hidden="true">&larr;</span> Menu</li></ul></nav></a>
+<div class="jumbotron col-md-8 col-md-offset-1">
+    {% if service!=null %}
+     <a href="{{ path('Trombinoscopestaff_service') }}">{{ service.name }}</a>
+     {% endif %}
+    <legend> Liste de Personnes</legend>
+    <a href="{{ path('Trombinoscopestaff_personne_edit') }}" class="btn btn-primary"> Ajouter nouvelle personne </a><br><br>
+
+
+
+
+    <div class="table-responsive">
+
+        <h3> Personnes</h3><br>
+
+
+        {% for Personnes in ListePersonnes  %}
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="{{ path ('Trombinoscopestaff_picture',{'slug':Personnes.slug}) }}" style="max-height: 150px; max-width: 200px" align="right">
+                    </a>
+
+            </div>
+            <div class="media-body">
+
+                 Nom:
+                    <a href="{{ path('Trombinoscopestaff_personne_edit', {id: Personnes.id})}}">{{ Personnes.name }} </a><br>
+
+                Prénom: {{ Personnes.prenom }}<br>
+
+
+                Username: {{ Personnes.username }}<br>
+
+
+                 Date d'arrivée:{{ Personnes.DateArrivee |date('d/m/Y') }} <br>
+
+
+                Date de départ:{{ Personnes.DateFinContrat |date('d/m/Y') }} <br>
+
+                Service Principal:<a href="{{ path('Trombinoscopestaff_personne_service',{id:Personnes.id}) }}">{{ Personnes.ServicePrincipal }}</a><br>
+
+
+            </div>
+        {% endfor %}
+        </div></div></div>
+{% endblock %}

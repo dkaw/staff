@@ -1,0 +1,12 @@
+{% extends '::base.html.twig' %}
+{% block title %} Trombinoscope  {% endblock %}
+{% block body %}
+<legend> Menu Trombinoscope</legend>
+<div class="alert alert-info" role="alert" style="width: 10%;height: 50% ">
+    <a href="{{ path('Trombinoscopestaff_personne') }}">Liste des personnes</a><br><br>
+
+    <a href="{{ path('Trombinoscopestaff_service') }}"> Liste des services</a><br><br>
+
+    <a href="{{ path('Trombinoscopestaff_pole') }}"> Pôle QSE </a>
+    </div>
+{% endblock %}

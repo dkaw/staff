@@ -1,0 +1,35 @@
+{% extends '::base.html.twig' %}
+{% block title %} Liste de personnes {% endblock %}
+
+{% block body %}
+    <div class="jumbotron col-md-8 col-md-offset-1">
+    <div class="table-responsive">
+    <table class="table">
+    <thead>
+    <tr>
+        <th>Personnes</th><br>
+    </tr></thead>
+    <tbody>
+
+        <tr class="active">
+        <tr>
+            <td><b> Prénom:</b> {{ personne.prenom }}</td>
+        </tr>
+        <tr>
+            <td><b> Nom:</b> {{ personne.name }}</td>
+            </tr>
+        <tr>
+            <td><b> Username:</b> {{ personne.username }}</td>
+            </tr>
+        <tr>
+            <tr>
+        <td><img src="{{ path('Trombinoscopestaff_picture',{'slug':personne.slug})}}" style="max-height: 150px; max-width: 200px"></td></tr>
+        <tr>
+            <td><b> Date d'arrivée:</b>{{ personne.DateArrivee |date('d/m/Y') }}</td>
+        </tr>
+        <tr>
+            <td><b> Date de départ:</b>{{ personne.DateFinContrat |date('d/m/Y') }}</td>
+        </tr>
+
+    </tbody></table></div></div>
+{% endblock %}

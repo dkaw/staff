@@ -1,0 +1,6 @@
+Trombinoscope\StaffBundle\Entity\Sites:
+    Site1:
+        name: VITRE
+        adresse: Chemin de tertres noirs 35505 Vitré
+        Responsable: @Personne5
+        pays: FRANCE

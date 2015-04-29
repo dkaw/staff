@@ -1,0 +1,47 @@
+{% extends '::base.html.twig' %}
+{% block title %} Liste de services AQUALEHA {% endblock %}
+
+{% block body %}
+    <nav>
+        <ul class="pager">
+            <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_homepage') }}"><span aria-hidden="true">&larr;</span> Menu</li></ul></nav></a>
+    {% if pole != null %}
+        <nav>
+            <ul class="pager">
+                <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_pole') }}">{{ pole.nom }}<span aria-hidden="true">&larr;</span></li></ul></nav></a>
+    {% endif %}
+    <div class="jumbotron col-md-8 col-md-offset-0">
+
+    <legend> Liste des Services</legend>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>Services</th>
+    </tr></thead>
+    <tbody>
+    {% for Services in ListeServices  %}
+        <tr>
+            <td> <a href="{{ path('Trombinoscopestaff_service_membre', {id: Services.id}) }}">{{ Services.name }}</a></td>
+        </tr>
+        <tr>
+            <td> {{ Services.description }}</td>
+        </tr>
+        <tr>
+            <td> {{ Services.actif }}</td>
+        </tr>
+        <tr>
+            <td> {{ Services.Responsable }}</td>
+        </tr>
+        <tr>
+            <td> {{ Services.Pole }}</td>
+        </tr>
+        <tr>
+            <td> {{ Services.pays }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+    </div>
+{% endblock %}
