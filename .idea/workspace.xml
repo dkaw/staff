@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110f33cc-0816-4194-a12d-686e8d33156e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/staff.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/deploy.rb" afterPath="$PROJECT_DIR$/app/config/deploy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/prod.rb" afterPath="$PROJECT_DIR$/app/config/prod.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="110f33cc-0816-4194-a12d-686e8d33156e" name="Default" comment="" />
     <ignored path="staff.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +56,7 @@
       <file leaf-file-name="ContributionPersonnesServices.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="27" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3220339" vertical-offset="0" max-vertical-offset="1755">
+            <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="0.33216783" vertical-offset="0" max-vertical-offset="1755">
               <folding />
             </state>
           </provider>
@@ -783,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3220339" vertical-offset="0" max-vertical-offset="1755">
+        <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="0.33216783" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
