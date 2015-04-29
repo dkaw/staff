@@ -120,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Staff/staffBundle/Resources/views/Personnes/service.html.twig" />
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/Form/PersonneType.php" />
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Staff/staffBundle/Resources/views/Personnes/add.html.twig" />
