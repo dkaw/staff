@@ -10,38 +10,29 @@
             <ul class="pager">
                 <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_pole') }}">{{ pole.nom }}<span aria-hidden="true">&larr;</span></li></ul></nav></a>
     {% endif %}
-    <div class="jumbotron col-md-8 col-md-offset-0">
+    <div class="jumbotron col-md-8 col-md-offset-1">
+     <legend> Liste des services</legend><br>
 
-    <legend> Liste des Services</legend>
 
-    <div class="table-responsive">
-        <table class="table table-bordered">
-    <thead>
-    <tr>
-        <th>Services</th>
-    </tr></thead>
+    <div class="panel panel-default">
+
+        <div class="panel-heading"><b> Services</b></div>
+
+
+        <table class="table">
     <tbody>
     {% for Services in ListeServices  %}
         <tr>
-            <td> <a href="{{ path('Trombinoscopestaff_service_membre', {id: Services.id}) }}">{{ Services.name }}</a></td>
+            <td> <a href="{{ path('Trombinoscopestaff_service_membre', {'slug':Services.slug}) }}">{{ Services.name }}</a></td>
         </tr>
         <tr>
-            <td> {{ Services.description }}</td>
+              <td><b> Description:</b> {{ Services.description }}</td>
         </tr>
         <tr>
-            <td> {{ Services.actif }}</td>
-        </tr>
-        <tr>
-            <td> {{ Services.Responsable }}</td>
-        </tr>
-        <tr>
-            <td> {{ Services.Pole }}</td>
-        </tr>
-        <tr>
-            <td> {{ Services.pays }}</td>
+           <td> <b> Pays:</b> {{ Services.pays }}</td>
         </tr>
         {% endfor %}
     </tbody>
     </table>
-    </div>
+    </div></div>
 {% endblock %}

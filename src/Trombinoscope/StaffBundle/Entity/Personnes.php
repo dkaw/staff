@@ -91,7 +91,8 @@ class Personnes
     private $DateFinContrat;
 
     /**
-     * @ORM\OneToMany(targetEntity="Trombinoscope\StaffBundle\Entity\Sites", mappedBy="Responsable")
+     * @ORM\ManyToOne(targetEntity="Trombinoscope\StaffBundle\Entity\Services", inversedBy="personnes", cascade={"persist"})
+     * @ORM\JoinColumn(name="IdSite", referencedColumnName="Id")
      */
     private $Site;
 

@@ -248,6 +248,7 @@ th {
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
+
   }
   .label {
     border: 1px solid #000;
@@ -2259,6 +2260,7 @@ th {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
+
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -3420,10 +3422,17 @@ tbody.collapse.in {
   border-top: 4px dashed;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
+
+
+
 }
 .dropup,
 .dropdown {
-  position: relative;
+  position:absolute;
+  right: 55%;
+  top: 10%;
+
+
 }
 .dropdown-toggle:focus {
   outline: 0;
@@ -4361,8 +4370,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  position:absolute;
+  top:20%;
+  width: 15%;
+  margin-top: 0px;
+  margin-bottom:5px;
+  margin-left: 400px;
+
+
+
+
 }
 .navbar-btn.btn-sm {
   margin-top: 10px;
@@ -4753,6 +4770,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
+
 }
 a.label:hover,
 a.label:focus {
@@ -6580,5 +6598,6 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+
 }
 /*# sourceMappingURL=bootstrap.css.map */

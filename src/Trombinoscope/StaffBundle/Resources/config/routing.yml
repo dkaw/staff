@@ -11,8 +11,11 @@ Trombinoscopestaff_personne_service:
     defaults: {_controller:TrombinoscopeStaffBundle:Personnes:service}
 
 Trombinoscopestaff_service_membre:
-    path:    /Service/membres/{id}
+    path:    /Service/{slug}
     defaults: {_controller:TrombinoscopeStaffBundle:Services:membres}
+    options:
+        expose: true
+
 
 Trombinoscopestaff_service:
         path:    /Services/{id}

@@ -1,6 +1,7 @@
 <?php
 namespace Trombinoscope\StaffBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * class Poles
@@ -51,6 +52,13 @@ class Poles
      */
 
     private $Service;
+
+    /**
+     * @Gedmo\Slug(fields={"nom"})
+     * @ORM\column(length=255, unique=true)
+     *
+     */
+    protected $slug;
 
     /**
      * @param mixed $Responsable
@@ -132,6 +140,22 @@ class Poles
     public function getService()
     {
         return $this->Service;
+    }
+
+    /**
+     * @param mixed $slug
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 
 

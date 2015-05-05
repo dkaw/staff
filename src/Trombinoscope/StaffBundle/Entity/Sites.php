@@ -47,6 +47,11 @@ class Sites
     private $Responsable;
 
     /**
+     * @ORM\OneToMany(targetEntity="Trombinoscope\StaffBundle\Entity\Personnes", mappedBy="Site")
+     */
+    private $personnes;
+
+    /**
      * @var String
      *
      * @ORM\Column(name="Pays", type="string", length=32)

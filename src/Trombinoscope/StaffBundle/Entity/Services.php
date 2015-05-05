@@ -2,6 +2,7 @@
 namespace Trombinoscope\StaffBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  *  Class Services
@@ -75,6 +76,18 @@ class Services
      */
 
     private $pays;
+
+    /**
+     * @var
+     * @ORM\OneToMany(targetEntity="Trombinoscope\StaffBundle\Entity\ContributionPersonnesServices", mappedBy="service", cascade={"persist", "remove"})
+     */
+    private $contributions;
+
+    /**
+     * @Gedmo\Slug(fields={"name"})
+     * @ORM\column(length=255, unique=true)
+     */
+    protected $slug;
 
     /**
      * @param mixed $IdPole
@@ -210,6 +223,38 @@ class Services
     function __toString()
     {
        return $this->name;
+    }
+
+    /**
+     * @param mixed $contributions
+     */
+    public function setContributions($contributions)
+    {
+        $this->contributions = $contributions;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getContributions()
+    {
+        return $this->contributions;
+    }
+
+    /**
+     * @param mixed $slug
+     */
+    public function setSlug($slug)
+    {
+        $this->slug = $slug;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 
 

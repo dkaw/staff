@@ -17,7 +17,6 @@ class ServicesController extends Controller
     public function indexAction(Request $request, Poles $pole = null)
     {
         $Services=$this->getDoctrine()->getManager();
-
         $qb = $Services->getRepository('TrombinoscopeStaffBundle:Services')->createQueryBuilder('s');
         if ($pole != null) {
             $qb->where('s.Pole = :pole')
