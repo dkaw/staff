@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110f33cc-0816-4194-a12d-686e8d33156e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/public/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/Resources/public/bootstrap/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/deploy.rb" afterPath="$PROJECT_DIR$/app/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/prod.rb" afterPath="$PROJECT_DIR$/app/config/prod.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="staff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,64 +41,89 @@
       <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="57" selection-start="1693" selection-end="1693" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="2190">
-              <folding />
+            <state line="13" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="-3.8235295" vertical-offset="0" max-vertical-offset="2265">
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#1;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="30" selection-start="547" selection-end="547" vertical-scroll-proportion="-6.7647057" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="30" selection-start="626" selection-end="626" vertical-scroll-proportion="0.45126355" vertical-offset="0" max-vertical-offset="831">
-              <folding />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="52" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContributionPersonnesServices.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="-5.5882354" vertical-offset="0" max-vertical-offset="1755">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Personnes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Personnes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="12" selection-start="549" selection-end="551" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="5190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preprod.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/preprod.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prod.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="prod.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/prod.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="225">
+            <state line="5" column="18" selection-start="163" selection-end="163" vertical-scroll-proportion="0.08741259" vertical-offset="0" max-vertical-offset="858">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/bootstrap/dist/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3440" column="19" selection-start="65480" selection-end="65480" vertical-scroll-proportion="-4.732143" vertical-offset="51335" max-vertical-offset="99195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="0" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1395">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonnesController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="41" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-13.75" vertical-offset="495" max-vertical-offset="2415">
+              <folding>
+                <element signature="e#55#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1487" selection-end="1487" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -94,16 +132,7 @@
       <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/SecurityController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="67" selection-start="875" selection-end="920" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="540">
+            <state line="12" column="70" selection-start="535" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -122,17 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/service.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/delete.twig.html" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/delete.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/add.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/search.twig.html" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/ListePersonnes.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/ListePersonnes.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/ListePersonnes.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/search.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/indexpersonnes.twig.html" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/jquery-ui.css" />
@@ -142,37 +160,48 @@
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/apropos.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/PersonnesRepository.php" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/showpicture.twig.html" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/showpicture.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/picture.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Personnes.yml" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Form/Type/PersonneType.php" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/indexpersonnes.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/membres.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Personnes.php" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/photo.twig.html" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/photo.html.twig" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Security/login.twig.html" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/web/config.php" />
         <option value="$PROJECT_DIR$/web/app.php" />
         <option value="$PROJECT_DIR$/app/config/preprod.rb" />
-        <option value="$PROJECT_DIR$/app/config/prod.rb" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Personnes.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/delete.html.twig" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/PersonnesRepository.php" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Poles.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/ServicesController.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Services.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/DataFixtures/ORM/LoadFixturesData.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Sites.yml" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Sites.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/indexpersonnes.html.twig" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/autoload.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/public/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/config/prod.rb" />
       </list>
     </option>
   </component>
@@ -214,7 +243,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,12 +351,427 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Personnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Type" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataFixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ORM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StaffBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trombinoscope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +839,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -405,7 +848,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24705882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24829721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -441,300 +884,215 @@
           <line>56</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php</url>
-          <line>55</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/delete.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="494" selection-end="517" vertical-scroll-proportion="0.13559322" vertical-offset="0" max-vertical-offset="885" />
+        <state line="22" column="37" selection-start="673" selection-end="673" vertical-scroll-proportion="0.3559322" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/preprod.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="0" selection-end="110" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="780" />
+        <state line="3" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="270" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="568" selection-end="597" vertical-scroll-proportion="0.5378486" vertical-offset="0" max-vertical-offset="630" />
+        <state line="18" column="24" selection-start="469" selection-end="469" vertical-scroll-proportion="0.13559322" vertical-offset="150" max-vertical-offset="1125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/public/jquery/dist/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3515625" vertical-offset="315" max-vertical-offset="138165">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/public/jquery/dist/jquery-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="846" column="30" selection-start="19637" selection-end="19637" vertical-scroll-proportion="0.0" vertical-offset="13504" max-vertical-offset="18345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/ServicesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="185" selection-end="185" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="77" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.37288135" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/apropos.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="342" selection-end="342" vertical-scroll-proportion="0.13559322" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/ListePersonnes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.27118644" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/TrombinoscopeStaffBundle.php">
+    <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/builder.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Menu/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/search.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="475" selection-end="475" vertical-scroll-proportion="0.23728813" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/service.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="348" selection-end="348" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/ServicesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="526" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/ContributionPersonnesServicesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/PersonnesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Personnes.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="894" selection-end="894" vertical-scroll-proportion="0.4950495" vertical-offset="0" max-vertical-offset="909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="679" selection-end="679" vertical-scroll-proportion="0.330033" vertical-offset="0" max-vertical-offset="909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/membres.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="82" selection-start="975" selection-end="975" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Form/Type/PersonneType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="17" selection-start="1969" selection-end="1969" vertical-scroll-proportion="-33.125" vertical-offset="210" max-vertical-offset="1470">
-          <folding>
-            <element signature="e#54#94#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/logs/dev.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8747" column="0" selection-start="1527615" selection-end="1527615" vertical-scroll-proportion="0.3470982" vertical-offset="130894" max-vertical-offset="131790" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/photo.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/indexpersonnes.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="140" selection-start="763" selection-end="763" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="567" column="67" selection-start="15764" selection-end="15769" vertical-scroll-proportion="0.3327032" vertical-offset="7909" max-vertical-offset="11445" />
+        <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="0.31422272" vertical-offset="0" max-vertical-offset="1755" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="716" selection-end="716" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="915" />
+        <state line="14" column="25" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="915" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/delete.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="17" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="345">
+        <state line="9" column="38" selection-start="526" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PoleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="619" selection-end="619" vertical-scroll-proportion="0.3559322" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="77" selection-start="921" selection-end="921" vertical-scroll-proportion="0.3898305" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/SitesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Personnes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="18" selection-start="894" selection-end="894" vertical-scroll-proportion="0.48335123" vertical-offset="0" max-vertical-offset="931" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Poles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="0" selection-start="2907" selection-end="2907" vertical-scroll-proportion="-100.0" vertical-offset="0" max-vertical-offset="2520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Form/Type/PersonneType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="17" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/PersonnesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="26" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="870">
+        <state line="40" column="27" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/membres.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="144" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/ServicesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="124" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Personnes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="101" selection-start="2227" selection-end="2236" vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="5220">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Sites.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="2" selection-start="1536" selection-end="1563" vertical-scroll-proportion="0.7425743" vertical-offset="0" max-vertical-offset="909" />
+        <state line="49" column="95" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2220">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/DataFixtures/ORM/LoadFixturesData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="74" column="75" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/fixtures/Services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="3990">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+        <state line="15" column="6" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/service.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="50" selection-start="348" selection-end="348" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="563" selection-end="612" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="475" selection-end="475" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="315">
           <folding>
-            <marker date="1430229636836" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/photo.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="1" selection-start="4502" selection-end="4502" vertical-scroll-proportion="0.89830506" vertical-offset="1185" max-vertical-offset="2070">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PoleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="327" selection-end="617" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="67" selection-start="875" selection-end="920" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="303" selection-end="303" vertical-scroll-proportion="0.20642202" vertical-offset="0" max-vertical-offset="1950">
+        <state line="15" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
           <folding>
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430298850255" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/indexpersonnes.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="30" selection-start="2159" selection-end="2159" vertical-scroll-proportion="1.2211221" vertical-offset="0" max-vertical-offset="1350">
+        <state line="31" column="13" selection-start="992" selection-end="992" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="673" selection-end="673" vertical-scroll-proportion="0.3559322" vertical-offset="0" max-vertical-offset="885">
+        <state line="20" column="60" selection-start="613" selection-end="639" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="57" selection-start="1693" selection-end="1693" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="2190">
-          <folding />
+        <state line="11" column="64" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="285">
+          <folding>
+            <element signature="e#7#58#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/preprod.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="469" selection-end="469" vertical-scroll-proportion="0.13559322" vertical-offset="150" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/SymfonyRequirements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11070">
           <folding />
         </state>
       </provider>
@@ -746,42 +1104,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Personnes.php">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="549" selection-end="551" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="5190">
+        <state line="12" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Poles.php">
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/ContributionPersonnesServices.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="78" selection-start="516" selection-end="518" vertical-scroll-proportion="-5.5882354" vertical-offset="0" max-vertical-offset="1755">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/prod.rb">
+    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="225">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.28052804" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2801" selection-start="2961" selection-end="2966" vertical-scroll-proportion="0.06696428" vertical-offset="0" max-vertical-offset="896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1487" selection-end="1487" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/PersonnesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="41" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-13.75" vertical-offset="495" max-vertical-offset="2415">
+          <folding>
+            <element signature="e#55#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="70" selection-start="535" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3440" column="19" selection-start="65480" selection-end="65480" vertical-scroll-proportion="-4.732143" vertical-offset="51335" max-vertical-offset="99195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="-3.8235295" vertical-offset="0" max-vertical-offset="2265">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="30" selection-start="547" selection-end="547" vertical-scroll-proportion="-6.7647057" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/prod.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="626" selection-end="626" vertical-scroll-proportion="0.45126355" vertical-offset="0" max-vertical-offset="831">
+        <state line="5" column="18" selection-start="163" selection-end="163" vertical-scroll-proportion="0.08741259" vertical-offset="0" max-vertical-offset="858">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

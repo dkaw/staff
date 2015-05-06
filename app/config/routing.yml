@@ -14,3 +14,4 @@ login_check:
 
 logout:
     pattern:   /logout
+

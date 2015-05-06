@@ -30,7 +30,11 @@
             <div class="media-body">
 
                  Nom:
-                    <a href="{{ path('Trombinoscopestaff_personne_edit', {id: Personnes.id})}}">{{ Personnes.name }} </a><br>
+                {% if is_granted('ROLE_ADMIN') %}
+                    <a href="{{ path('Trombinoscopestaff_personne_edit', {id: Personnes.id})}}">{{ Personnes.name }} </a>
+                {% else %}
+                    {{ Personnes.name }}
+                {% endif %}<br>
 
                 Prénom: {{ Personnes.prenom }}<br>
 
@@ -43,7 +47,9 @@
 
                 Date de départ:{{ Personnes.DateFinContrat |date('d/m/Y') }} <br>
 
-                Service Principal:<a href="{{ path('Trombinoscopestaff_personne_service',{id:Personnes.id}) }}">{{ Personnes.ServicePrincipal }}</a><br>
+
+
+                Service Principal:<a href="{{ path('Trombinoscopestaff_personne_service',{'slug':Personnes.slug}) }}">{{ Personnes.ServicePrincipal }}</a><br>
 
 
             </div>

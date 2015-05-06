@@ -8,6 +8,7 @@ use Trombinoscope\StaffBundle\Entity\Services;
 use Trombinoscope\StaffBundle\Form\Type\PersonneType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
 /**
  * Created by PhpStorm.
@@ -47,9 +48,21 @@ class PersonnesController extends Controller
             return $this->render('TrombinoscopeStaffBundle:Personnes:service.html.twig', array('service' => $personnes->getServicePrincipal()));
     }
 
+    /**
+     * @param Request $request
+     * @param Personnes $personne
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|Response
+     * @throws \Symfony\Component\Security\Core\Exception\AccessDeniedException
+     * @Security("has_role('ROLE_ADMIN')")
+     */
+
     public function editAction(Request $request, Personnes $personne=null)
     {
-
+        /*
+        if (false === $this->get('security.authorization_checker')->isGranted('ROLE_ADMIN')) {
+            throw new AccessDeniedException();
+        }
+        */
         if($personne== null){
             $personne= new Personnes();
         }
@@ -64,12 +77,16 @@ class PersonnesController extends Controller
 
             }
         }
+          /*else{*/
+
+
 
         return $this->render('TrombinoscopeStaffBundle:Personnes:edit.html.twig', array(
             'form'  => $form->createView(),
             'personne'  => $personne,
         ));
     }
+
 
     public function deleteAction(Request $request, Personnes $personne=null)
     {

@@ -1,25 +1,25 @@
 Trombinoscopestaff_homepage:
     path:     /
     defaults: { _controller: TrombinoscopeStaffBundle:Default:index }
-
 Trombinoscopestaff_personne:
     path:    /Personnes/index/{idService}
     defaults: {_controller:TrombinoscopeStaffBundle:Personnes:index, idService: null}
 
 Trombinoscopestaff_personne_service:
-    path:    /Personnes/service/{id}
+    path:    /Personnes/service/{slug}
     defaults: {_controller:TrombinoscopeStaffBundle:Personnes:service}
+    options:
+        expose: true
 
 Trombinoscopestaff_service_membre:
-    path:    /Service/{slug}
+    path:    /Services/{slug}/membres
     defaults: {_controller:TrombinoscopeStaffBundle:Services:membres}
     options:
         expose: true
 
-
 Trombinoscopestaff_service:
-        path:    /Services/{id}
-        defaults: {_controller:TrombinoscopeStaffBundle:Services:index, id: null}
+        path:    /Services/{slug}
+        defaults: {_controller:TrombinoscopeStaffBundle:Services:index, slug: null}
 
 Trombinoscopestaff_pole:
     path:    /Poles/index
@@ -42,6 +42,7 @@ Trombinoscopestaff_personnes:
     defaults: {_controller:TrombinoscopeStaffBundle:Personnes:indexpersonnes}
     options:
         expose: true
+
 Trombinoscopestaff_apropos:
     path:   /Apropos
     defaults: {_controller:TrombinoscopeStaffBundle:Default:apropos}

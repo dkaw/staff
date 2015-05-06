@@ -9,6 +9,75 @@
         <link href="{{ asset_url }}" rel="stylesheet" type="text/css" />
         {% endstylesheets %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="{{ path('fos_js_routing_js', {'callback': 'fos.Router.setData'}) }}"></script>
+        <script>
+
+            $(function() {
+                function log( message ) {
+                    $( "<div>" ).text( message ).prependTo( "#log" );
+                    $( "#log" ).scrollTop( 0 );
+                }
+
+                $.ui.autocomplete.prototype._renderItem = function( ul, item ) {
+                    return $( "<li>")
+                            .attr( "data-value", item.id )
+                            .append( item.name )
+                            .appendTo( ul );
+                };
+
+                $( "#Search" ).autocomplete({
+                    source: "{{ path('Trombinoscopestaff_personne_search') }}",
+
+                    minLength: 2,
+                    select: function( event, ui ) {
+                        console.log( ui.item ?
+                                "Selected: " + ui.item.name + " aka " + ui.item.id :
+                                "Nothing selected, input was " + this.name );
+                        window.location = Routing.generate('Trombinoscopestaff_personnes', {'slug': ui.item.slug});
+
+
+                    }
+                });
+            });
+
+        </script>
+
+        <style>
+            .ui-autocomplete{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 1000;
+                float: left;
+                display: none;
+                min-width: 160px;
+                padding: 4px 0;
+                margin: 0 0 10px 25px;
+                list-style: none;
+                background-color: #ffffff;
+                border-color: #ccc;
+                border-color: rgba(0, 0, 0, 0.2);
+                border-style: solid;
+                border-width: 1px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+                *border-right-width: 2px;
+                *border-bottom-width: 2px;
+                overflow-y: auto;
+                overflow-x: hidden;
+
+            }
+        </style>
     </head>
     <body>
 
@@ -28,109 +97,44 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ path('Trombinoscopestaff_homepage') }}"> Accueil</a></li>
+                </ul>
 
-                    {% if is_granted('ROLE_ADMIN') %}
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search" id="Search">
-                            <button type="submit" class="btn btn-default">Submit</button> {% endif %}
+                            <button type="submit" class="btn btn-default">Submit</button>
                         </div>
                         {% if is_granted('ROLE_ADMIN') ==false %}
-                        <button type="button" class="btn btn-default navbar-btn"><a href="{{ path('login') }}">Se connecter</a></button> {% endif %}
+                            <button type="button" class="btn btn-default navbar-btn"><a href="{{ path('login') }}">Se connecter</a></button>
+                        {% endif %}
                         <div class="dropdown">
                             {% if is_granted('ROLE_ADMIN') %}
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="width:130px" >Menu
-                            <span class="caret"  ></span></button> {% endif %}
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_personne') }}">Liste des personnes</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_service') }}">Liste des services</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_pole') }}">Liste de Pôles</a></li>
-                            <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_apropos') }}">A propos</a></li>
-                        </ul>
-            </div>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-            <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
-            <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-            <script src="{{ path('fos_js_routing_js', {'callback': 'fos.Router.setData'}) }}"></script>
-                </form>
-                   <script>
-
-                       $(function() {
-                           function log( message ) {
-                               $( "<div>" ).text( message ).prependTo( "#log" );
-                               $( "#log" ).scrollTop( 0 );
-                           }
-
-                           $.ui.autocomplete.prototype._renderItem = function( ul, item ) {
-                               return $( "<li>")
-                                       .attr( "data-value", item.id )
-                                       .append( item.name )
-                                       .appendTo( ul );
-                           };
-
-                            $( "#Search" ).autocomplete({
-                                source: "{{ path('Trombinoscopestaff_personne_search') }}",
-
-                                minLength: 2,
-                                select: function( event, ui ) {
-                                    console.log( ui.item ?
-                                            "Selected: " + ui.item.name + " aka " + ui.item.id :
-                                            "Nothing selected, input was " + this.name );
-                                    window.location = Routing.generate('Trombinoscopestaff_personnes', {'slug': ui.item.slug});
-
-
-                           }
-                            });
-                        });
-
-                   </script>
-
-            <style>
-                .ui-autocomplete{
-                    position: absolute;
-                    top: 100%;
-                    left: 0;
-                    z-index: 1000;
-                    float: left;
-                    display: none;
-                    min-width: 160px;
-                    padding: 4px 0;
-                    margin: 0 0 10px 25px;
-                    list-style: none;
-                    background-color: #ffffff;
-                    border-color: #ccc;
-                    border-color: rgba(0, 0, 0, 0.2);
-                    border-style: solid;
-                    border-width: 1px;
-                    -webkit-border-radius: 5px;
-                    -moz-border-radius: 5px;
-                    border-radius: 5px;
-                    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-                    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-                    -webkit-background-clip: padding-box;
-                    background-clip: padding-box;
-                    *border-right-width: 2px;
-                    *border-bottom-width: 2px;
-                    overflow-y: auto;
-                    overflow-x: hidden;
-
-                }
-            </style>
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="width:170px" >Menu
+                                <span class="caret"  ></span>
+                            </button>
+                            {% endif %}
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_personne') }}">Liste des personnes</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_service') }}">Liste des services</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_pole') }}">Liste de Pôles</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_apropos') }}">A propos</a></li>
+                            </ul>
+                        </div>
+                    </form>
             {% if is_granted('ROLE_ADMIN') %}
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Compte <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
 
-                            <li><a href="{{ path('logout') }}">Se déconnecter</a></li> {% endif %}
+                            <li><a href="{{ path('logout') }}">Déconnexion</a></li>
+
                         </ul>
                     </li>
                 </ul>
+            {% endif %}
+
             </div>
         </div>
     </nav>

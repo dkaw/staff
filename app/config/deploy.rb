@@ -21,7 +21,7 @@ set :model_manager, "doctrine"
 # Or: `propel`
 
 set :writable_dirs, ["app/cache", "app/logs"]
-set :webserver_user, "apache"
+set :webserver_user, "www-data"
 set :shared_files, ["app/config/parameters.yml"]
 set :permission_method, :chown
 set :use_set_permissions, true

@@ -3101,6 +3101,7 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #286090;
   border-color: #204d74;
+
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -3433,9 +3434,12 @@ tbody.collapse.in {
   top: 10%;
 
 
+
 }
 .dropdown-toggle:focus {
   outline: 0;
+  position:relative;
+  top:70%;
 }
 .dropdown-menu {
   position: absolute;
