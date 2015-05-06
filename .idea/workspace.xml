@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110f33cc-0816-4194-a12d-686e8d33156e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/membres.html.twig" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/membres.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig" afterPath="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig" />
     </list>
     <ignored path="staff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,18 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/deploy.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="30" selection-start="547" selection-end="547" vertical-scroll-proportion="-6.7647057" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="prod.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/prod.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,7 +52,10 @@
         <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="6" selection-start="464" selection-end="464" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-              <folding />
+              <folding>
+                <marker date="1430829976941" expanded="true" signature="109:463" placeholder="..." />
+                <marker date="1430829976941" expanded="true" signature="165:456" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +64,10 @@
         <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/apropos.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
+              <folding>
+                <marker date="1430320267038" expanded="true" signature="139:326" placeholder="..." />
+                <marker date="1430320267038" expanded="true" signature="167:320" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +76,10 @@
         <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
+              <folding>
+                <marker date="1430320267038" expanded="false" signature="185:208" placeholder="..." />
+                <marker date="1430320267038" expanded="true" signature="209:464" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,10 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="716" selection-end="716" vertical-scroll-proportion="0.24082568" vertical-offset="0" max-vertical-offset="915">
+            <state line="14" column="25" selection-start="716" selection-end="716" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="31" selection-start="176" selection-end="176" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -168,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Repository/PersonnesRepository.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Poles.php" />
-        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Controller/ServicesController.php" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Entity/Services.php" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/DataFixtures/ORM/LoadFixturesData.php" />
@@ -189,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Services/membres.html.twig" />
+        <option value="$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig" />
       </list>
     </option>
   </component>
@@ -1012,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="60" selection-start="613" selection-end="639" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="64" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="285">
@@ -1202,21 +1199,30 @@
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="464" selection-end="464" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-          <folding />
+          <folding>
+            <marker date="1430829976941" expanded="true" signature="109:463" placeholder="..." />
+            <marker date="1430829976941" expanded="true" signature="165:456" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/apropos.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
-          <folding />
+          <folding>
+            <marker date="1430320267038" expanded="true" signature="139:326" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="167:320" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
-          <folding />
+          <folding>
+            <marker date="1430320267038" expanded="false" signature="185:208" placeholder="..." />
+            <marker date="1430320267038" expanded="true" signature="209:464" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,7 +1235,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Personnes/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="716" selection-end="716" vertical-scroll-proportion="0.24082568" vertical-offset="0" max-vertical-offset="915">
+        <state line="14" column="25" selection-start="716" selection-end="716" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trombinoscope/StaffBundle/Resources/views/Poles/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="176" selection-end="176" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
