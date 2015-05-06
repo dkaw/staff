@@ -4,11 +4,11 @@
 {% block body %}
     <nav>
         <ul class="pager">
-            <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_homepage') }}"><span aria-hidden="true">&larr;</span> Menu</li></ul></nav></a>
+            <li class="previous"><a href="{{ path('Trombinoscopestaff_homepage') }}"><span aria-hidden="true">&larr;</span> Menu</li></ul></nav></a>
     {% if pole != null %}
         <nav>
             <ul class="pager">
-                <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_pole') }}">{{ pole.nom }}<span aria-hidden="true">&larr;</span></li></ul></nav></a>
+                <li class="previous"><a href="{{ path('Trombinoscopestaff_pole') }}">{{ pole.nom }}<span aria-hidden="true">&larr;</span></li></ul></nav></a>
     {% endif %}
     <div class="jumbotron col-md-8 col-md-offset-1">
      <legend> Liste des services</legend><br>

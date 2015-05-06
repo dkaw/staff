@@ -6,7 +6,7 @@
   {% if service!=null %}
       <nav>
       <ul class="pager">
-      <li class="previous disabled"><a href="{{ path('Trombinoscopestaff_service') }}">{{ service.name }} <span aria-hidden="true">&larr;</span></li></ul></nav></a>
+      <li class="previous"><a href="{{ path('Trombinoscopestaff_service') }}">{{ service.name }} <span aria-hidden="true">&larr;</span></li></ul></nav></a>
       {% endif %}
     {% for Personnes in service.personnes %}
         <table>
