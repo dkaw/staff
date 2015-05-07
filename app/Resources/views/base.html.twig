@@ -11,6 +11,7 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="{{ path('fos_js_routing_js', {'callback': 'fos.Router.setData'}) }}"></script>
@@ -112,7 +113,6 @@
                             <button class="btn btn-primary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="width:170px" >Menu
                                 <span class="caret"  ></span>
                             </button>
-                            {% endif %}
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_personne') }}">Liste des personnes</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_service') }}">Liste des services</a></li>
@@ -121,19 +121,18 @@
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ path('Trombinoscopestaff_apropos') }}">A propos</a></li>
                             </ul>
                         </div>
+                        {% endif %}
                     </form>
             {% if is_granted('ROLE_ADMIN') %}
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Compte <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-
-                            <li><a href="{{ path('logout') }}">Déconnexion</a></li>
-
+                            <li><a href="{{ path('logout') }}">Déconnexion</a></li> {% endif %}
                         </ul>
                     </li>
                 </ul>
-            {% endif %}
+
 
             </div>
         </div>
